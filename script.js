@@ -116,24 +116,24 @@ function checkWhoIsWin(userChoice) {
     imageContainer.style.display ='block';
     if(compCheck==="rock" ||compCheck==="paper" || compCheck==="scissor"){
         if(compCheck==="rock"){
-            img_1.src = "/image/rock.png";
+            img_1.src = "../image/rock.png";
         }
       else if(compCheck==="paper"){
-            img_1.src = "/image/paper.png";
+            img_1.src = "../image/paper.png";
         }
       else{
-            img_1.src = "/image/scissors.png";
+            img_1.src = "../image/scissors.png";
         }
     }
     if(userChoice==="rock" ||userChoice==="paper" || userChoice==="scissor"){
         if(userChoice==="rock"){
-            img_2.src = "/image/rock_flip.png";
+            img_2.src = "../image/rock_flip.png";
         }
       else if(userChoice==="paper"){
-            img_2.src = "/image/paper_flip.png";
+            img_2.src = "../image/paper_flip.png";
         }
       else{
-            img_2.src = "/image/scissors_flip.png";
+            img_2.src = "..image/scissors_flip.png";
         }
     }
 
